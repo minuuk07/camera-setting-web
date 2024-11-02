@@ -1,0 +1,192 @@
+*{
+    padding:0px;
+    margin:0px;
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      
+      
+
+}
+#check{
+    display:none;
+}
+.main_box{
+    background-image: url("camera.jpg");
+    height:100vh;
+    background-size: cover;
+}
+.btn_one{
+    color:white;
+    font-size: 30px;
+    font-weight: 700px;
+    
+    position:absolute;
+    left:25px;
+    line-height: 60px;
+    
+
+
+
+}
+.sidebar_menu{
+    position: fixed;
+    left:-300px;
+    height:100%;
+    width:160px;
+    background-color:rgba(255,255,255,0.1);
+   
+    box-shadow: 2px 2px 8px gray;
+    transition: all 0.5s linear;
+
+
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    top:15px;
+    left:10px;
+    width:94%;
+    font-size: 22px;
+    text-decoration: none;
+    box-shadow: 2px 2px 8px gray;
+    background-color: rgba(255,255,255,0.3);
+
+}
+.sidebar_menu .btn_two{
+    position: absolute;
+    left:142px;
+    bottom:715px;
+    color:rgba(255,255,255,1);
+    font-size: 19px;
+    font-weight: 60px;
+    /* opacity: 0.5; */
+    
+   
+   cursor: pointer;
+
+
+}
+.sidebar_menu .menu {
+    position: absolute;
+    top:60px;
+    padding: 5px;
+    margin: 4px;
+    font-size: 15px;
+
+
+}
+ .menu ul li i,a{
+    color:white;
+    opacity: 1;
+    text-decoration: none;
+}
+ 
+.sidebar_menu .menu i{
+    padding: 5px;
+    margin: 6px;
+}
+.social_media {
+    position: absolute;
+    top:420px;
+    left:50px;
+    
+    font-weight: 800px;
+    color:rgba(255,255,255,0.4);
+}
+.social_media i{
+    margin: 2px;
+    font-size: 13px;
+    color:rgba(255,255,255,0.4);
+}
+.menu ul li:hover{
+    box-shadow: 2px 2px 8px gray;
+    font-size:20px ;
+}
+.social_media  i:hover{
+    font-size: 17px;
+    color:rgba(255,255,255,1);
+}
+#check:checked ~ .btn_one{
+    opacity: 0;
+
+}
+#check:checked ~ .sidebar_menu{
+    left:0px;
+}
+.btn_one:hover{
+    font-size: 36px;
+    opacity: 1;
+}
+.btn_two i:hover{
+    font-size: 23px;
+    opacity: 1;
+    color:aliceblue
+}
+.main_box #login{
+    display:inline-block;
+}
+
+#login{
+    box-shadow: 2px 2px 8px gray;
+    background-color:rgba(255,255,255,0.2);
+    position: absolute;
+    left:300px;
+    top:30px;
+    margin:15px;
+    padding: 25px;
+font-size: 50px;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(255,255,255);
+    box-shadow: 2px 2pxn 8px red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+   
+    
+
+}
+#login h1{
+    position: relative;
+    bottom: 30px;
+}
+#name{
+    position: relative;
+    bottom: 25px;
+    font-size: 40px;
+}
+#gmail{
+    position: relative;
+   top:11px;
+   font-size: 40px;
+}
+
+#password{
+    position: relative;
+   top:19px;
+   font-size: 40px;
+}
+
+#button{
+    position: relative;
+    top:26px;
+    color: red;
+    font-size: 20px;
+    
+}
+h2{
+    position: relative;
+    left:250px;
+    top:100px;
+    color:yellow;
+    opacity: 0.8;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
